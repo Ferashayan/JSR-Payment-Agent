@@ -1,0 +1,279 @@
+{
+  "company": {
+    "name_ar": "شركة جسر",
+    "name_en": "Jisr Company",
+    "balance": 209800,
+    "currency": "SAR",
+    "employees_count": 6,
+    "active_count": 5
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name_ar": "فراس النعسان",
+      "name_en": "Feras Al-Naesan",
+      "country": "السعودية",
+      "flag": "🇸🇦",
+      "nationality": "Saudi",
+      "department": "التطوير",
+      "position": "مهندس برمجيات أول",
+      "status": "نشط",
+      "initial": "FR",
+      "wallet": "المحفظة الرئيسية (SAR)",
+      "wallet_currency": "SAR",
+      "salary": 24500,
+      "balance": 14500,
+      "is_frozen": false,
+      "last_pay_date": "28 سبتمبر 2023"
+    },
+    {
+      "id": 2,
+      "name_ar": "سالم عبدالله",
+      "name_en": "Salem Abdullah",
+      "country": "الإمارات",
+      "flag": "🇦🇪",
+      "nationality": "Emirati",
+      "department": "المبيعات",
+      "position": "مدير مبيعات",
+      "status": "نشط",
+      "initial": "SA",
+      "wallet": "محفظة AED",
+      "wallet_currency": "AED",
+      "salary": 28000,
+      "balance": 18200,
+      "is_frozen": false,
+      "last_pay_date": "28 سبتمبر 2023"
+    },
+    {
+      "id": 3,
+      "name_ar": "جون ميلر",
+      "name_en": "John Miller",
+      "country": "الولايات المتحدة",
+      "flag": "🇺🇸",
+      "nationality": "American",
+      "department": "التطوير",
+      "position": "مهندس DevOps",
+      "status": "نشط",
+      "initial": "JM",
+      "wallet": "محفظة USD",
+      "wallet_currency": "USD",
+      "salary": 31200,
+      "balance": 22000,
+      "is_frozen": false,
+      "last_pay_date": "28 سبتمبر 2023"
+    },
+    {
+      "id": 4,
+      "name_ar": "نورة الأحمد",
+      "name_en": "Noura Al-Ahmad",
+      "country": "السعودية",
+      "flag": "🇸🇦",
+      "nationality": "Saudi",
+      "department": "الإدارة",
+      "position": "محاسبة",
+      "status": "مُجمد",
+      "initial": "NA",
+      "wallet": "المحفظة الرئيسية (SAR)",
+      "wallet_currency": "SAR",
+      "salary": 19000,
+      "balance": 9500,
+      "is_frozen": true,
+      "last_pay_date": "28 سبتمبر 2023"
+    },
+    {
+      "id": 5,
+      "name_ar": "كريم حسن",
+      "name_en": "Karim Hassan",
+      "country": "مصر",
+      "flag": "🇪🇬",
+      "nationality": "Egyptian",
+      "department": "التطوير",
+      "position": "مبرمج واجهات",
+      "status": "نشط",
+      "initial": "KH",
+      "wallet": "محفظة EGP",
+      "wallet_currency": "EGP",
+      "salary": 15400,
+      "balance": 11000,
+      "is_frozen": false,
+      "last_pay_date": "28 سبتمبر 2023"
+    },
+    {
+      "id": 6,
+      "name_ar": "لورا سميث",
+      "name_en": "Laura Smith",
+      "country": "المملكة المتحدة",
+      "flag": "🇬🇧",
+      "nationality": "British",
+      "department": "المبيعات",
+      "position": "مديرة تسويق",
+      "status": "نشط",
+      "initial": "LS",
+      "wallet": "محفظة GBP",
+      "wallet_currency": "GBP",
+      "salary": 28900,
+      "balance": 20300,
+      "is_frozen": false,
+      "last_pay_date": "28 سبتمبر 2023"
+    }
+  ],
+  "company_transactions": [
+    {
+      "id": 1,
+      "type": "إيداع",
+      "amount": "2,000,000",
+      "numeric_amount": 2000000,
+      "currency": "SAR",
+      "date": "28 مارس 2026, 10:00 ص",
+      "details": "تغذية المحفظة لمسير رواتب شهر مارس",
+      "status": "مكتمل"
+    },
+    {
+      "id": 2,
+      "type": "سحب",
+      "amount": "1,940,200",
+      "numeric_amount": -1940200,
+      "currency": "SAR",
+      "date": "29 مارس 2026, 08:30 ص",
+      "details": "صرف الرواتب - مسير مارس (142 موظف)",
+      "status": "قيد التنفيذ"
+    },
+    {
+      "id": 3,
+      "type": "سحب",
+      "amount": "5,000",
+      "numeric_amount": -5000,
+      "currency": "SAR",
+      "date": "15 مارس 2026, 11:20 ص",
+      "details": "سحب رصيد متبقي إلى حساب الشركة الأساسي",
+      "status": "مكتمل"
+    },
+    {
+      "id": 4,
+      "type": "إيداع",
+      "amount": "150,000",
+      "numeric_amount": 150000,
+      "currency": "SAR",
+      "date": "01 مارس 2026, 09:15 ص",
+      "details": "تغذية إضافية - مكافآت ومصاريف طارئة",
+      "status": "مكتمل"
+    }
+  ],
+  "employee_transactions": [
+    {
+      "id": 1,
+      "type": "إيداع",
+      "amount": "24,500",
+      "numeric_amount": 24500,
+      "currency": "SAR",
+      "date": "28 مارس 2026, 10:00 ص",
+      "details": "إيداع راتب شهر مارس",
+      "status": "مكتمل"
+    },
+    {
+      "id": 2,
+      "type": "سحب",
+      "amount": "4,000",
+      "numeric_amount": -4000,
+      "currency": "SAR",
+      "date": "02 أبريل 2026, 02:30 م",
+      "details": "تحويل بنكي - سداد بطاقة الراجحي",
+      "status": "مكتمل"
+    },
+    {
+      "id": 3,
+      "type": "سحب",
+      "amount": "1,500",
+      "numeric_amount": -1500,
+      "currency": "SAR",
+      "date": "15 أبريل 2026, 11:20 ص",
+      "details": "تحويل محلي - محمد عبدالعزيز",
+      "status": "مكتمل"
+    },
+    {
+      "id": 4,
+      "type": "إيداع",
+      "amount": "5,000",
+      "numeric_amount": 5000,
+      "currency": "SAR",
+      "date": "15 فبراير 2026, 09:15 ص",
+      "details": "سلفة نقدية معتمدة",
+      "status": "مكتمل"
+    }
+  ],
+  "payment_methods": [
+    {
+      "id": 1,
+      "type": "bank",
+      "label": "بنك الراجحي",
+      "sub_label": "**** 4567",
+      "icon": "account_balance",
+      "icon_color": "bg-secondary-container/20 text-secondary-container"
+    },
+    {
+      "id": 2,
+      "type": "wallet",
+      "label": "STC Pay",
+      "sub_label": "**** 0900",
+      "icon": "phone_iphone",
+      "icon_color": "bg-primary-fixed-dim/20 text-primary-fixed-dim"
+    }
+  ],
+  "employee_requests": [
+    {
+      "id": 1,
+      "type": "سلفة",
+      "status": "مقبول",
+      "date": "15 أبريل 2026",
+      "details": "سلفة نقدية لمصاريف طارئة",
+      "amount": 5000,
+      "currency": "SAR"
+    },
+    {
+      "id": 2,
+      "type": "إجازة",
+      "status": "مقبول",
+      "date": "01 مارس 2026",
+      "details": "إجازة سنوية",
+      "leave_type": "سنوية",
+      "start_date": "2026-03-10",
+      "end_date": "2026-03-20"
+    }
+  ],
+  "departments": [
+    {
+      "name_ar": "التطوير",
+      "name_en": "Development",
+      "employees_count": 3,
+      "head": "فراس النعسان"
+    },
+    {
+      "name_ar": "المبيعات",
+      "name_en": "Sales",
+      "employees_count": 2,
+      "head": "سالم عبدالله"
+    },
+    {
+      "name_ar": "الإدارة",
+      "name_en": "Administration",
+      "employees_count": 1,
+      "head": "نورة الأحمد"
+    }
+  ],
+  "salary_statistics": {
+    "total_employees": 6,
+    "active_employees": 5,
+    "frozen_employees": 1,
+    "total_monthly_payroll": 146900,
+    "currency": "SAR",
+    "average_salary": 24483.33,
+    "highest_salary": 31200,
+    "lowest_salary": 15400
+  },
+  "employee_balance": 12450,
+  "system_info": {
+    "last_updated": "2026-04-30",
+    "version": "1.0",
+    "description": "نظام إدارة الرواتب والمدفوعات - Jisr Payment Management System"
+  }
+}

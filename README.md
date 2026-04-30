@@ -1,4 +1,6 @@
 # JSR-Payment-Agent 🤖
+.\venv\Scripts\uvicorn app.main:app --reload --port 8000
+
 
 **Jisr AI Assistant** — A FastAPI + LangChain backend agent specialized in Saudi payroll management, GOSI, and Mudad systems.
 
